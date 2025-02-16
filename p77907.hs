@@ -1,7 +1,3 @@
-sqrtInt :: Int -> Int
-sqrtInt n = floor (sqrt (fromIntegral n))
-
-
 absValue :: Int -> Int
 absValue n
     |  n >= 0 = n
